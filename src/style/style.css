@@ -1,0 +1,97 @@
+.create {
+    width: 70%;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+}
+
+.create__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create__form__fieldset {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+input, select {
+    width: 400px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 2px;
+}
+
+h2 {
+    color: blue;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.employeesList {
+    width: 70%;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: blue;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav ul {
+    list-style-type: none; 
+    display: flex; 
+    gap: 20px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:visited {
+    color: white;
+}
