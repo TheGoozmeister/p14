@@ -7,11 +7,15 @@
 .create__form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .create__form__fieldset {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 50%;
@@ -94,4 +98,13 @@ nav a {
 
 nav a:visited {
     color: white;
+}
+
+button {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#selectNumbers {
+    margin-left: 10px;
 }
